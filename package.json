@@ -1,0 +1,18 @@
+{
+  "name": "TomyPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pug": "pug -w -P ./src/pug/ -o ./public/",
+    "sass": "sass --watch ./src/sass/index.scss:./public/css/index.css",
+    "dev": "npm-run-all --parallel pug sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {}
+}

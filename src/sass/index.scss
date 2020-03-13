@@ -1,0 +1,25 @@
+// --NORMALIZE--
+@import 'components/normalize';
+// --NORMALIZE--
+
+// --FONTS--
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sen|Roboto&display=swap');
+// --FONTS--
+
+* {
+    font-family: 'Sen', 'Montserrat', 'Roboto', sans-serif;
+    font-size: 16px;
+}
+body{
+    $sides-blank-space: 7.5em;
+    min-height: 100vh;
+
+    display: flex;
+    padding-left: $sides-blank-space;
+    padding-right: $sides-blank-space;
+}
+
+@import 'components/container';
+@import 'components/header';
+@import 'components/main';
+@import 'components/footer';
