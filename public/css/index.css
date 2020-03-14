@@ -397,9 +397,9 @@ body {
   transform: scale(0.9);
   box-shadow: 0 0 0 2px #eee, 0 0 7px 4px #444;
 }
-.__main ._description .__plain__text {
-  font-size: 1.75em;
-  text-align: center;
+.__main ._description ._description_video {
+  width: 50em;
+  height: 30em;
 }
 .__main ._social_media {
   display: flex;
