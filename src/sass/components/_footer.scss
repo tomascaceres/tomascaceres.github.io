@@ -1,5 +1,22 @@
 .__footer {
+    $sides-blank-space: 2em;
+
     grid-area: footer;
 
-    background-color: #aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 2px 1px #777 inset;
+
+    padding-left: $sides-blank-space;
+    padding-right: $sides-blank-space;
+
+    .__footer__text{
+        font-size: 1em;
+    }
+    ._footer_text_2{
+        display: none;
+    }
 }

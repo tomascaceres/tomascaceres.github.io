@@ -1,5 +1,13 @@
 .__header {
-    grid-area: header;
+    $sides-blank-space: 2em;
 
-    background-color: #666;
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 0 -2px 1px #777 inset;
+
+    padding-left: $sides-blank-space;
+    padding-right: $sides-blank-space;
 }

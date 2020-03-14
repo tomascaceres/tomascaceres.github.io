@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px){
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 800px){
+    body{
+        font-size: 10px;
+    }
+    .__image{
+        transform: scale(.75);
+    }
+}
+@media screen and (max-width: 628px){
+    body{
+        font-size: 8px;
+
+        --sides-blank-space: 5em;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        font-size: 7px;
+    }
+    .__container{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 628px){
+    body{
+        min-height: 100vh;
+    }
+    .__main{
+        padding-right: 5em;
+        padding-left: 5em;
+    }
+    .__footer__text{
+        content: "Desarrollado por Luciano Della Savia";
+    }
+    ._footer_text_2{
+        display: initial;
+        content: "en apoyo de Tomás Cáceres";
+    }
+}
