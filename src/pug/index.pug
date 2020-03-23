@@ -4,18 +4,32 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Tomas Caceres
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
 
         link(rel="stylesheet", href="./css/index.css")
     body
         .__container
             header.__header 
                 h1.__title Tomás Cáceres
+
             main.__main 
                 section._main_picture
                     img.__image(src="./assets/images/main.jpg", alt="main_picture")
+
                 section._description
-                    .carousel
-                        iframe._description_video(src="https://youtu.be/aeTCXT8d1pU", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen="allowfullscreen")
+                    i.icon.fa.fa-chevron-left#carouselBtnLeft
+                    .__carousel
+
+                        ul.__carousel__list#carouselList
+                            li.__item
+                                <iframe class="_description_video" src="https://www.youtube.com/embed/aeTCXT8d1pU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                            li.__item
+                                <iframe class="_description_video" src="https://www.youtube.com/embed/_0lH1pF4mpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    i.icon.fa.fa-chevron-right#carouselBtnRight
+
+
                 section._social_media
                     a(href="https://wa.me/542235916650")
                         img.__image(src="./assets/images/whatsapp.png", alt="WhatsApp")
@@ -23,6 +37,7 @@ html(lang="en")
                         img.__image(src="./assets/images/instagram.png", alt="Instagram")
                     a(href="https://www.facebook.com/profile.php?id=100048207398202")
                         img.__image(src="./assets/images/messenger.png", alt="Messenger")
+
             footer.__footer 
                 p.__footer__text#footerText1 Desarrollado por Luciano Della Savia en apoyo de Tomás Cáceres
                 p.__footer__text#footerText2
