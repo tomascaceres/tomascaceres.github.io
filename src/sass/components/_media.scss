@@ -8,6 +8,12 @@
     }
 }
 
+@media screen and (max-width: 980px) {
+    body {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     body {
         font-size: 10px;
@@ -15,6 +21,12 @@
 
     .__image {
         transform: scale(.75);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 8px;
     }
 }
 
@@ -29,6 +41,16 @@
 @media screen and (max-width: 500px) {
     body {
         font-size: 7px;
+    }
+
+    .__container {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 5px;
     }
 
     .__container {
